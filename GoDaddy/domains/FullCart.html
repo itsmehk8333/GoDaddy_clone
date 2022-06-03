@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="Fullcart.css">
+    <title>Cart</title>
+    <script src="Fullcart.jsx"></script>
+</head>
+<body>
+    <div class="main-div">
+
+        <div class="pricing-div">
+
+            <div class="div2">
+                <h3 class="title">Your Cart</h3>
+                <p class="p1">Don't stop now, your business is almost online </p>
+                <div class="div3">
+                    <h5 id="h5"></h5>
+                    <p class="p"> Domain registration</p>
+                <div class="price-div">
+                    <select id="regisyear">
+                        <option value="1"> 1 year</option>
+                        <option value="2">2 years </option>
+                        <option value="3">3 years </option>
+                        <option value="4">4 years </option>
+                        <option value="5">5 years </option>
+                            </select>
+                
+                    <h4 id="Totalprice"></h4>
+                </div>
+                </div>
+                <div>
+                    <p class="p3">Full Domain Protection</p>
+                    <div>
+                        <p class="domain-years"></p>
+                        <h3 class="protection-price"></h3>
+                    </div>
+                    <p class="protection-years"></p>
+                </div>
+                <div class="div5">
+                    <P class="p4">Professional Email - Individual - <span class="email-months">29/- rs</span> month</P>
+                    <div class="div4">
+                        <select id="email-select" >
+                            <option value="1">1 month</option>
+                            <option value="6">6 months</option>
+                            <option value="12">12 months</option>
+                            <option value="32"> 32 months</option>
+                        </select>
+                
+                        <p id="total-email-price"> 0.00 Rs</p>
+                    </div>
+                </div>
+                <button onclick="fullcart()" class="continue">Continue </button>
+                    </div>
+        </div>
+   
+    <div class="cart-div">
+    <div>
+    <h1>Order Summary</h1>
+    <hr>
+    <p class="subtotal">Subtotal<span class="inr">(INR)</span>      <span id="totlaprices">00</span></p>  
+    <p class="Applypromocode">Apply promocode</p>
+    <input type="text" id="promocode"/> 
+    <button class="Apply">Apply</button>
+ <br/>
+    <button class="pay">I'm Ready to pay</button>
+
+    </div>
+
+
+    </div>
+
+    </div>
+</body>
+</html>

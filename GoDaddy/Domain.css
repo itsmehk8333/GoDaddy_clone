@@ -1,0 +1,119 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    margin: 0 0 0 3em;
+}
+
+.logo-name{
+font-size: 1.6rem;
+font-weight: 600;
+cursor: pointer;
+}
+.blog{
+    margin: 0 0 0 42em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    cursor: pointer;
+}
+.checkout{
+    font-size: 1.2em;
+    margin: 0 0 0 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+color: black;
+cursor: pointer;
+}
+.cart-image{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.domain-main-info{
+    width: 50%;
+   
+}
+.domain-head{
+    margin: 2em  0 0 0;
+    display: flex;
+    background-color:#CECECE ;
+}
+.domain-main-img{
+    float: right;
+}
+.p1{
+    margin:10em 0 0 3.3em;
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1-1{
+    margin:0.3em 0 0 0.8em;
+    font-size: 4em;
+}
+.why-div{
+    margin: 2em 0 0 13em;
+    width: 60%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Dif-domain{
+    margin: 5em 0 0 0 ;
+   display: flex;
+   justify-content: space-around;
+}
+.domain{
+    width: 24.5%;
+    height: 35rem;
+    border: 1px solid black;
+}
+.logos{
+    margin: 5em 0 0 2em;
+}
+.titles{
+    margin: 6em  0 0 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 500;
+font-size: 1.2em;
+}
+.comtitle{
+    margin: 7.3em  0 0 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+h3{
+    font-weight: normal;
+    margin: 2em 0 0 2em;
+}
+.price{
+    margin: 0 0   0 2em;
+    font-family: Regular 400 Italic;
+}
+.span{
+    margin: 2em 0 0  4em;
+}
+.Domain-button{
+    margin: 3rem 0 0 1.5em ;
+    padding: 1em 4em ;
+    font-size: 1em;
+    font-weight: 500;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.domain2-img{
+    margin: 4em 0 0 0 ;
+}
+.footer{
+    margin: 5em 0 0 0;
+    background-color:#111;
+    padding: 20px;
+    
+}
+.logoss{
+    margin: 4.3em 0 0 0;
+}

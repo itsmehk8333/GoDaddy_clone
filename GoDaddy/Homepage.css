@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    margin: 0 0 0 3em;
+}
+
+.logo-name{
+font-size: 1.6rem;
+font-weight: 600;
+cursor: pointer;
+}
+.blog{
+    margin: 0 0 0 42em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    cursor: pointer;
+}
+.checkout{
+    font-size: 1.2em;
+    margin: 0 0 0 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+color: black;
+cursor: pointer;
+}
+.cart-image{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.second-logo{
+    width: 75%;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+border-radius: 1em;
+
+
+
+    margin: 1em 0 0 10em;
+}
+body{
+
+}
+.Domains-div{
+    display: flex;
+
+    margin: 5em 0 0 2em;
+}
+.Domain-info{
+    width: 45%;
+    
+}
+.Domain-title{
+
+    margin: 5em 0 0 3em;
+}
+.Domain-des{
+    margin: 1em 0 0 5em ;
+    width: 70%;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.Domain-button{
+    margin: 2rem 0 0 11em ;
+    padding: 1em 4em ;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.second-div{
+    margin: 2em 0;
+}
+.Hosting-div{
+    margin: 5em 0 0 3em;
+    display: flex;
+}
+.Hosting-info{
+    width: 45%;
+  
+    margin: 0 0 0  5em;
+}
+.hosting-des{
+    margin: 4em 0 0 0;
+}
+.hosting-button{
+    margin: 2rem 0 0 4em ;
+    padding: 1em 4em ;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.email-marking{
+    margin: 4em 0 0 0;
+    display: flex;
+}
+.email-info{
+    margin: 5em 0 0 4e;
+    width: 45%;
+
+}
+.email-img{
+ 
+}
+.email-desc{
+    width: 70%;
+    margin: 1em 0 0 6em;
+    font-weight: 500;
+}
+.email-head{
+    margin: 4em 0 0 3em ;
+}
+.email-button{
+    margin: 4em 0 0 10em;
+    padding: 1em 4em;
+    font-weight: 500;
+    font-size: 0.9em;
+border: 3px solid black;
+cursor: pointer;
+}
+.footer{
+    margin: 5em 0 0 0;
+    background-color:#111;
+    padding: 20px;
+    
+}
